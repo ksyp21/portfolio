@@ -1,5 +1,7 @@
 body {
   font-family: 'Poppins', sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
 section {
@@ -46,17 +48,60 @@ li {
 
 h1 {
   font-size: 90px;
+  margin: 0px;
+}
+
+.hero_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .hero_text {
   margin-left: 80px;
+  margin-bottom: 170px;
+}
+
+p {
+  margin: 0px;
+  font-size: 30px;
+  font-weight: 300;
 }
 
 .button {
   width: 200px;
-  height: 60px;
+  height: 55px;
   border-radius: 30px;
   background-color: coral;
   text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #ef744b;
+}
+
+.button:active {
+  background-color: #A9A9A9;
+  color: 808080;
+}
+
+.socials {
+  padding-bottom: 200px;
+}
+
+.logo {
+  height: 100px;
+  margin: 20px;
 }
 /*# sourceMappingURL=style.css.map */
