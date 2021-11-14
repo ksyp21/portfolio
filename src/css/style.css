@@ -51,6 +51,10 @@ h1 {
   margin: 0px;
 }
 
+h2 {
+  font-size: 50px;
+}
+
 .hero_area {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -107,5 +111,19 @@ p {
 
 .social {
   margin: 10px;
+}
+
+.sub-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 80px;
+}
+
+.headshot {
+  width: 200px;
+  border-radius: 150px;
 }
 /*# sourceMappingURL=style.css.map */

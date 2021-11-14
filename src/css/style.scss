@@ -39,7 +39,9 @@ footer{
      font-size: 90px;
      margin: 0px;
  }
-
+ h2{
+    font-size: 50px;
+}
  .hero_area{
      display: flex;
      height: 100%;
@@ -84,4 +86,16 @@ footer{
  }
 .social{
     margin: 10px;
+}
+
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+
+.headshot{
+    width: 200px;
+    border-radius: 150px;
 }
