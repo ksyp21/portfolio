@@ -1,12 +1,12 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
-    padding: 0px;
+    
 }
 section{
-    height: 500px;
+    
     background-color: white;
-    border: solid black 1px;
+   
 }
 .hero{
     background-color: #1c1D25;
@@ -94,8 +94,29 @@ footer{
     padding: 80px;
 }
 
+.sub-section-alternative{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
 
 .headshot{
     width: 200px;
     border-radius: 150px;
+    margin-left: 80px;
+}
+.headshot-container{
+    display: flex;
+    align-items: center;
+}
+.project_card{
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px gray;  
+    margin: 10px;
+}
+.project_container{
+    display: flex;
+    justify-content: space-around;
 }
