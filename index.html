@@ -15,16 +15,16 @@
         <nav>
             <img class="logo" src="images/logo.png" alt="image of my logo">
             <ul>
-                <li>About me</li>
-                <li>Projects</li>
-                <li>Contacts</li>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contacts">Contacts</a></li>
             </ul>
         </nav>
         <div class="hero_area">
             <div class="hero_text">
                 <h1>Kashyap Raj Karki</h1>
                 <p>Front End Developer</p>
-                <div class="button">About me</div> 
+                <div class="button"><a href="#about-me">About me</a></div> 
             </div>
             <div class="socials">
                 <div> <a href="https://github.com/ksyp21" class="social">
@@ -37,7 +37,7 @@
         </div>
        
     </section>
-    <section class="sub-section">
+    <section class="sub-section" id="about-me">
         <div class="information">
             <h2>About Me</h2>
             <p>Hello. My name is Kashyap Raj Karki. I am a starting my journey as a programmer with front end development. 
@@ -47,21 +47,45 @@
             <img class="headshot" src="images/headshot.jpg" alt="image of my head">
         </div>
     </section>
-    <section class="sub-section-alternative">
+    <section class="sub-section-alternative" id="projects">
         <h2>Projects</h2>
         <div class="project_container">
             <div class="project_card">
-                <img class="project-image" src="" alt="project one image">
-                <h3>Project One</h3>
+                <img class="project-images" src="images/ocr.jpg" alt="project one image">
+                <h3>OCR</h3>
                 <p class="subtext">This is my project on OCR a.k.a Optical Character Reader</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="#">View here</a></p>
             </div>
-            <div class="project_card"></div>
-            <div class="project_card"></div>
-            <div class="project_card"></div>
+            <div class="project_card">
+                <img class="project-images" src="images/objectdetection.jpg" alt="project two image">
+                <h3>Object Detection</h3>
+                <p class="subtext">This is my project on Machine Learning using Python.</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="#">View here</a></p>
+            </div>
+            <div class="project_card">
+                <img class="project-images" src="images/comingsoon.jpg" alt="comming soon">
+                <h3>Project Three</h3>
+                <p class="subtext">This is a placeholder for my future projects.</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="#">View here</a></p>
+            </div>
+            <div class="project_card">
+                <img class="project-images" src="images/comingsoon.jpg" alt="comming soon">
+                <h3>Project Four</h3>
+                <p class="subtext">This is a placeholder for my future projects.</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="#">View here</a></p> 
+            </div>
+            
         </div>
         
     </section>
-    <footer></footer>
+    <footer id="contacts">
+        <h2>Contact me</h2>
+        <p>ksypkarki@gmail.com</p>
+    </footer>
     <script src="src/app.js"></script>
 </body>
 </html>

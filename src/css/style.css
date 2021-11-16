@@ -8,15 +8,17 @@ section {
 }
 
 .hero {
-  background-color: #1c1D25;
+  background-color: #224247;
   height: 100vh;
   color: white;
   font-size: 40px;
 }
 
 footer {
-  height: 500px;
-  background-color: black;
+  background-color: #224247;
+  color: white;
+  text-align: center;
+  padding: 80px;
 }
 
 nav {
@@ -76,11 +78,16 @@ p {
   font-weight: 300;
 }
 
+.subtext {
+  font-size: 15px;
+  font-weight: 300;
+}
+
 .button {
   width: 200px;
   height: 55px;
   border-radius: 30px;
-  background-color: coral;
+  background-color: #614f84;
   text-align: center;
   font-size: 30px;
   font-weight: 300;
@@ -89,7 +96,7 @@ p {
 }
 
 .button:hover {
-  background-color: #ef744b;
+  background-color: #4c229c;
 }
 
 .button:active {
@@ -135,6 +142,7 @@ p {
   width: 200px;
   border-radius: 150px;
   margin-left: 80px;
+  padding-top: 80px;
 }
 
 .headshot-container {
@@ -160,5 +168,26 @@ p {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.project-images {
+  margin-top: 25px;
+  width: 250px;
+  border-radius: 125px;
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #614f84;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
