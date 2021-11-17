@@ -33,6 +33,10 @@ footer{
      justify-content: space-around;
      font-size: 25px;
  }
+ ul.show{
+     display: block;
+ }
+
  li{
      
      text-decoration: none;
@@ -100,6 +104,13 @@ footer{
     padding: 80px;
 }
 
+@media only screen and (max-width: 1000px){
+    .information{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
 .sub-section-alternative{
     display: flex;
     flex-direction: column;
@@ -128,11 +139,28 @@ footer{
     justify-content: space-around;
 }
 
+@media only screen and (max-width: 1000px){
+    .project_container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    footer{
+        background-color: #224247;
+        color: white;
+        text-align: center;
+        padding: 10px;
+       
+    }
+}
 .project-images{
     margin-top: 25px;
     width: 250px;
     border-radius: 125px;
 }
+
 hr{
     margin-left: 20px;
     margin-right: 20px;
@@ -144,4 +172,34 @@ hr{
 a{
     text-decoration: none;
     color: white;
+}
+
+.hamburger{
+    display: none;
+}
+.hamburger:focus{
+    outline: 0;
+}
+@media only screen and (max-width: 1000px) {
+    .hamburger{
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+    ul{
+        display: none;
+        background-color: #27585f;
+    }
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #27585f;
+    }
+    .logo{
+        display: none;
+    }
 }

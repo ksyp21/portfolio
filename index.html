@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b1dc545abb.js" crossorigin="anonymous"></script>  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,11 +15,14 @@
     <section class="hero">
         <nav>
             <img class="logo" src="images/logo.png" alt="image of my logo">
-            <ul>
+            <ul id="nav-list">
                 <li><a href="#about-me">About me</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contacts">Contacts</a></li>
             </ul>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
         </nav>
         <div class="hero_area">
             <div class="hero_text">
@@ -39,7 +43,7 @@
     </section>
     <section class="sub-section" id="about-me">
         <div class="information">
-            <h2>About Me</h2>
+            <h2 class="head">About Me</h2>
             <p>Hello. My name is Kashyap Raj Karki. I am a starting my journey as a programmer with front end development. 
                 This is my first project.</p>
         </div>    
