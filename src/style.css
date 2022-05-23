@@ -8,26 +8,25 @@ section {
 }
 
 .hero {
-  background-color: #224247;
+  background-color: #1c1D25;
   height: 100vh;
   color: white;
   font-size: 40px;
 }
 
 footer {
-  background-color: #224247;
+  background-color: #1c1D25;
   color: white;
   text-align: center;
   padding: 80px;
 }
 
 nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 8vh;    
+  background-color: #1c1D25;
 }
 
 ul {
@@ -50,7 +49,7 @@ li {
 }
 
 h1 {
-  font-size: 90px;
+  font-size: 70px;
   margin: 0px;
 }
 
@@ -77,10 +76,12 @@ h2 {
 }
 
 p {
-  margin: 0px;
-  font-size: 30px;
+  margin: 10px;
+  font-size: 25px;
   font-weight: 300;
 }
+
+
 
 .subtext {
   font-size: 15px;
@@ -96,7 +97,7 @@ p {
   font-size: 30px;
   font-weight: 300;
   padding-top: 5px;
-  margin-top: 20px;
+  margin-top: 70px;
 }
 
 .button:hover {
@@ -130,15 +131,6 @@ p {
   padding: 80px;
 }
 
-@media only screen and (max-width: 1000px) {
-  .information {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-}
 
 .sub-section-alternative {
   display: -webkit-box;
@@ -167,7 +159,9 @@ p {
       -ms-flex-align: center;
           align-items: center;
 }
-
+.sub-section-alternative{
+  margin-top: -50px;
+}
 .project_card {
   width: 300px;
   height: 500px;
@@ -182,25 +176,6 @@ p {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-}
-
-@media only screen and (max-width: 1000px) {
-  .project_container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  footer {
-    background-color: #224247;
-    color: white;
-    text-align: center;
-    padding: 10px;
-  }
 }
 
 .project-images {
@@ -232,6 +207,40 @@ a {
   outline: 0;
 }
 
+
+
+
+/* Media Queries */
+/* @media only screen and (max-width: 1000px) {
+  .information {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .project_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  footer {
+    background-color: #1c1D25;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+}
+
 @media only screen and (max-width: 1000px) {
   .hamburger {
     display: block;
@@ -245,7 +254,7 @@ a {
   }
   ul {
     display: none;
-    background-color: #27585f;
+    background-color: #1c1D25;
   }
   nav {
     display: -webkit-box;
@@ -255,10 +264,76 @@ a {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-    background-color: #27585f;
+    background-color: #1c1D25;
   }
   .logo {
     display: none;
   }
+} */
+
+@media screen and (max-width:1000px){
+  .project_container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .information{
+    display: flex;
+    flex-wrap: wrap;
 }
+footer {
+  background-color: #1c1D25;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+}
+
+@media screen and (max-width:718px){
+  nav{
+  display: flex;
+  flex-direction: column-reverse;
+  }
+  .logo{
+    display: none;
+  }
+  h1{
+    margin: 0px;
+    font-size: 50px;
+  }
+  p{
+    font-size: 15px;
+  }
+  .hamburger{
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+    align-self: flex-end;
+}
+ul{
+    display: none;
+    background-color: #1c1D25;
+}
+h2{
+  font-size: 30px;
+}
+.button {
+  width: 125px;
+  height: 45px;
+  border-radius: 30px;
+  background-color: #614f84;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+  padding-top: 15px;
+  margin-top: 70px;
+}
+.headshot-container{
+  display: none;
+}
+}
+
+
 /*# sourceMappingURL=style.css.map */

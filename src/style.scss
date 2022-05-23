@@ -9,7 +9,7 @@ section{
    
 }
 .hero{
-    background-color: #224247;
+    background-color: #1c1D25;
     height: 100vh;
     color: white;
     font-size: 40px;
@@ -17,23 +17,26 @@ section{
 
 
 footer{
-    background-color: #224247;
+    background-color: #1c1D25;
     color: white;
     text-align: center;
     padding: 80px;
 }
  nav{
      display: flex;
-     justify-content: space-between;
+     justify-content: space-around;
+     align-items: center;
      
  }
  ul{
-     display: flex;
+     display: flex; 
      list-style-type: none;
      width: 500px;
      justify-content: space-around;
      font-size: 25px;
  }
+
+ 
  ul.show{
      display: block;
  }
@@ -61,11 +64,13 @@ footer{
      margin-bottom: 170px;
  }
  
+ 
  p{
      margin: 0px;
      font-size: 30px;
      font-weight: 300;
  }
+
  .subtext{
      font-size: 15px;
      font-weight: 300;
