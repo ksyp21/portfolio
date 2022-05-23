@@ -226,7 +226,7 @@ a{
     
 // }
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:1024px){
     .project_container{
         display: flex;
         flex-wrap: wrap;
@@ -246,6 +246,49 @@ a{
 @media screen and (max-width: 900px) {
     h1{
         font-size: 50px;
+    }
+    .logo{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+    ul{
+        display: none;
+        background-color: #1c1D25;
+    }
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #1c1D25;
+    }
+    p{
+        font-size: 15px;
+    }
+    .button{
+        width: 150px;
+        height: 30px;
+        border-radius: 30px;
+        background-color: #614f84;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 300;
+        padding-top: 5px;
+        margin-top: 20px;
+    }
+    .headshot-container{
+        display: none;
+    }
+}
+@media screen and (max-width:415px){
+    h1{
+        font-size: 40px;
     }
     .logo{
         display: none;
