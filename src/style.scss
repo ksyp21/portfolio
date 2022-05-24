@@ -16,12 +16,7 @@ section{
 }
 
 
-footer{
-    background-color: #1c1D25;
-    color: white;
-    text-align: center;
-    padding: 80px;
-}
+
  nav{
      display: flex;
      justify-content: space-between;
@@ -51,6 +46,57 @@ footer{
      
      text-decoration: none;
  }
+ footer{
+    padding: 40px 0px;
+    background-color: #1c1D25;
+}
+.social_logos{
+    text-align: center;
+    padding-bottom: 25px;
+}
+.social_logos a{
+    font-size: 24px;
+    border: 1px solid grey;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}    
+.social_logos a:hover{
+    opacity: 0.9;
+}
+.list_logos{
+    display: flex; 
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 25px;
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.list_logos a{
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.list_logos li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.copyright{
+    color: white;
+    text-align: center ;
+}
  h1{
      font-size: 90px;
      margin: 0px;
@@ -165,6 +211,7 @@ hr{
 a{
     text-decoration: none;
     color: white;
+   
 }
 
 .hamburger{
@@ -248,7 +295,8 @@ a{
         font-size: 50px;
     }
     .logo{
-        display: none;
+      
+       display: none;
     }
     .hamburger{
         display: block;
@@ -313,6 +361,49 @@ a{
     }
     p{
         font-size: 15px;
+    }
+    .button{
+        width: 150px;
+        height: 30px;
+        border-radius: 30px;
+        background-color: #614f84;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 300;
+        padding-top: 5px;
+        margin-top: 20px;
+    }
+    .headshot-container{
+        display: none;
+    }
+}
+@media screen and (max-width:370px) {
+    h1{
+        font-size: 30px;
+    }
+    .logo{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 25px;
+        margin: 15px;
+        align-self: flex-end;
+    }
+    ul{
+        display: none;
+        background-color: #1c1D25;
+    }
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #1c1D25;
+    }
+    p{
+        font-size: 12px;
     }
     .button{
         width: 150px;
