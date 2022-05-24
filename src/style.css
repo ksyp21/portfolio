@@ -56,7 +56,7 @@ li {
 }
 
 footer {
-  padding: 40px 0px;
+  padding: 60px 0px;
   background-color: #1c1D25;
 }
 
@@ -282,7 +282,7 @@ a {
     background-color: #1c1D25;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 40px 10px 10px 10px;
   }
 }
 
